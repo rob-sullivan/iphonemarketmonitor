@@ -19,10 +19,10 @@ A tool to get the price distribution of iphones for sale on secondhand websites
 1. Get total number of iphone ads (not price)
 2. Randomly sample iPhone ads 
 3. For every ad in sample 
-  1. Get text model (e.g iPhone 14), 
-  2. Get text description
-  3. Get float Price
-  4. Get datetime when ad was posted
+    1. Get text model (e.g iPhone 14), 
+    2. Get text description
+    3. Get float Price
+    4. Get datetime when ad was posted
 
 4. Perform a Levene's test on each website sample to check homogeneity of variance (that the distance between the max and min from the average is the same).
 
